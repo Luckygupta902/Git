@@ -1,0 +1,37 @@
+1)git init = to intinal the folder to git repo
+2)git status =to find the status
+3)git add .= to bring into stage
+4)git commit -m "intial commit"
+5) git log
+steps
+git remote add origin <remote-repository-URL>
+git push -u origin master
+
+how to merge from master to main?
+1)git checkout main
+2)git merge dev
+3)git rebase origin/dev
+4)git push origin main
+5)git push-f
+6)git push -f origin mains
+
+problem:
+1)if your local is not tracking main then
+1)git branch =it will only one master branch
+2)git branch-v=it will only one master branch= orgin/master
+=======
+problem:
+1)if your local is not tracking main then
+>>>>>>> master
+answer=1)git fetch --all , 2)git branch -r
+Problem:2
+Check if the Remote Has a main Branch
+Run:
+
+
+
+
+
+
+
+
