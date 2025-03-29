@@ -1,4 +1,81 @@
-git dev branch
-now in main branch
-now in dev branch
-now again in dev branch
+1)git init = to intinal the folder to git repo
+2)git status =to find the status
+3)git add .= to bring into stage
+4)git commit -m "intial commit"
+5) git log
+steps
+git remote add origin <remote-repository-URL>
+git push -u origin master
+
+6)git add file name
+7)rm -rf .git
+touch erroy.log
+touch .gitin
+8)git checkout -b dev
+9)git clone -b dev <repository-url>
+
+10)git push origin main --force =error: failed to push some refs to 'https://github.com/Luckygupta902/JavaBackend.git'
+
+11)git remote add origin https://github.com/username/repository.git
+12)git checkout main
+
+note if get the problem like unrealated history
+1)git checkout main
+
+2)git pull origin main --allow-unrelated-histories
+
+3)git add .
+git commit -m "Resolve merge conflicts"
+
+4)git push origin main
+5)git fetch origin how to fetech the orgin
+
+
+<<<<<<< HEAD
+*git ls-remote --heads origin
+
+problem:
+1)if your local is not tracking main then
+1)git branch =it will only one master branch
+2)git branch-v=it will only one master branch= orgin/master
+=======
+problem:
+1)if your local is not tracking main then
+>>>>>>> master
+answer=1)git fetch --all , 2)git branch -r
+Problem:2
+Check if the Remote Has a main Branch
+Run:
+
+<<<<<<< HEAD
+how to merge from master to main?
+1)git checkout main
+2)git merge dev
+3)git rebase origin/dev
+4)git push origin main
+5)git push-f
+6)git push -f origin mains
+
+extra command:
+git remote -v
+git branch -v
+=======
+2)a)Copy
+Edit
+git ls-remote --heads origin
+If refs/heads/main is missing, the main branch might not exist in the remote repository.
+
+1<<<<<<< HEAD
+how to merge from master to main?
+1)git checkout main
+2)git merge dev
+3)git rebase origin/dev
+4)git push origin main
+5)git push-f
+6)git push -f origin mains
+
+
+
+
+
+
